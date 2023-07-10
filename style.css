@@ -28,7 +28,7 @@ a{
     font-size: 18px;
     margin: 20px 0px;
 }
-.header_coloum >button{
+button{
     font-size: 22px;
     border: none;
     outline: none;
@@ -37,7 +37,7 @@ a{
     padding: 8px;
     border-radius: 5px;
 }
-.header_coloum >button:hover{
+button:hover{
     background-color: bisque;
     color: black;
 }
@@ -112,3 +112,24 @@ margin: 130px 130px 0px 130px;
     margin-top: 18px;
     font-size: 18px;
 }
+
+/* Deal part start */
+.deal_container{
+    display: flex;
+    background-color: aquamarine;
+    height: 600px;
+    
+}
+.coloum{
+    margin: 80px 130px;
+}
+.coloum >h2{
+    margin-top: 90px;
+    font-size: 38px;
+}
+.coloum >p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Deal part end     */
