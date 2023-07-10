@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+
+/* Header part start */
+.header_contain{
+    display: flex;
+    background-color: aquamarine;
+    height: 650px;
+   
+}
+.header_coloum{
+    margin: 0px 120px;
+}
+.header_coloum >h2{
+    margin-top: 100px;
+    font-size: 77px;
+}
+.header_coloum >p{
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.header_coloum >button{
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    padding: 8px;
+    border-radius: 5px;
+}
+.header_coloum >button:hover{
+    background-color: bisque;
+    color: black;
+}
+.header_contain img{
+    width: 400px;
+    height: 650px;
+}
+
+/* Header part end */
