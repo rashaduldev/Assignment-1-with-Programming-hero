@@ -51,7 +51,7 @@ a{
 /* Featured part start */
 .feature_container{
 height: 650px;
-margin: 130px;
+margin: 130px 130px 0px 130px;
 }
 .feature_head{
     text-align: center;
@@ -84,4 +84,31 @@ margin: 130px;
     justify-content: center !important;
     
 }
+.anchor{
+    display: flex;
+    margin: 0px 130px 0px 130px;
+    justify-content: space-around;
+    text-decoration-line: underline;
+    font-size: 24px;
+
+}
 /* Featured part end */
+
+/* less important part */
+.coloum_container{
+    display: flex;
+    margin: 130px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    justify-content: space-around;
+    background-color: rgb(199, 222, 242);
+}
+.coloum{
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+.coloum >p{
+    margin-top: 18px;
+    font-size: 18px;
+}
