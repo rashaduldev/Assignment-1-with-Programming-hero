@@ -133,3 +133,30 @@ margin: 130px 130px 0px 130px;
 }
 
 /* Deal part end     */
+
+/* insta part start */
+.insta_cintainer{
+    height: 530px;
+    margin: 0px 130px 0px 130px;
+    /* background-color: aquamarine; */
+}
+.paragraph{
+    text-align: center;
+    margin: 150px 0px 50px 0px;
+}
+.paragraph >h2{
+    font-size: 40px;
+}
+.paragraph >p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.img_part{
+    display: flex;
+    gap: 8.5px;
+}
+.img_part >img{
+    width: 24%;
+}
+
+/* insta part end */
