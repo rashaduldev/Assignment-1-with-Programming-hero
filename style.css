@@ -67,29 +67,23 @@ margin: 130px 130px 0px 130px;
     font-size: 18px;
 }
 .feature_photo{
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: space-around;
-    margin-top: 45px;
-    background-color: aqua;
+    margin-top: 75px;
+    /* background-color: aqua; */
 }
-.feature_photo .picone{
-    background-color:rgb(220, 235, 249);
-    height: 300px;
-    width: 300px;
-    margin-top: 80px;
+.feature_photo >img{
+    background-color: #858585;
+    width: 19%;
+    padding: 150px 40px 0px 40px;
+    border-radius: 220px 220px 0px 0px;
+}
 
-}
-.feature_photo .picone >img{
-    /* background-color: black; */
-    width: 150px;
-    align-items: center !important;
-    justify-content: center !important;
-    
-}
 .anchor{
     display: flex;
-    margin: 0px 130px 0px 130px;
+    /* margin: 0px 130px 0px 130px; */
+    margin-top: -60px;
     justify-content: space-around;
     text-decoration-line: underline;
     font-size: 24px;
@@ -109,7 +103,6 @@ margin: 130px 130px 0px 130px;
 .coloum{
     text-align: center;
     align-items: center;
-    padding: 40px;
 }
 .coloum >p{
     margin-top: 18px;
@@ -168,7 +161,6 @@ textarea{
 .insta_cintainer{
     height: 530px;
     margin: 0px 130px 0px 130px;
-    /* background-color: aquamarine; */
 }
 .paragraph{
     text-align: center;
