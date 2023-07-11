@@ -18,6 +18,7 @@ span{
     display: flex;
     background-color: aquamarine;
     height: 650px;
+    justify-content: space-around;
    
 }
 .header_coloum{
@@ -74,10 +75,18 @@ margin: 130px 130px 0px 130px;
     /* background-color: aqua; */
 }
 .feature_photo >img{
-    background-color: #858585;
     width: 19%;
     padding: 150px 40px 0px 40px;
     border-radius: 220px 220px 0px 0px;
+}
+.fstimg{
+    background-color: #858585;
+}
+.sndimg{
+    background-color: aquamarine;
+}
+.trdimg{
+    background-color: rgba(0, 0, 255, 0.244);
 }
 
 .anchor{
@@ -114,6 +123,7 @@ margin: 130px 130px 0px 130px;
     display: flex;
     background-color: aquamarine;
     height: 600px;
+    justify-content: space-around;
     
 }
 .coloum{
@@ -134,16 +144,12 @@ margin: 130px 130px 0px 130px;
 .mgs_container{
     display: flex;
     margin: 0px 0px;
-    height: 100vh;
+   
 }
 .mgs_coloum{
     width: 50%;
     text-align: center;
 }
-/* .mgs_coloum >input, textarea{
-    display: block;
-    text-align: center;
-} */
 .mgs_coloum >input{
     width: 50%;
     height: 40px;
@@ -158,11 +164,57 @@ textarea{
 }
 
 /* insta part start */
-.insta_cintainer{
-    height: 530px;
-    margin: 0px 130px 0px 130px;
+.instagram{
+    background-color: aqua;
 }
-.paragraph{
+.insta_cintainer{
+
+}
+.all_img_insta{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 150px;
+}
+.all_img_insta img{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 24%;
+}
+.coloumone{
+    text-align: center;
+}
+.coloumone >h2{
+    font-size: 56px;
+    margin-top: 70px;
+}
+.coloumone >p{
+    font-size: 18px;
+    margin: 20px;
+}
+.deals_container{
+    background-image: url('./assets/last_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center; 
+    margin: 150px;
+}
+.deals_container >h1{
+    font-size: 40px;
+    padding-top: 110px;
+}
+.deals_container >p{
+    margin: 20px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.deals_container .inpubtn >input{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+} 
+/* .paragraph{
     text-align: center;
     margin: 150px 0px 50px 0px;
 }
@@ -202,7 +254,7 @@ textarea{
     width: 50%;
     height: 50px;
     border-radius: 5px;
-}
+} */
 
 /* insta part end */
 
