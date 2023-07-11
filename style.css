@@ -54,7 +54,6 @@ button:hover{
 
 /* Featured part start */
 .feature_container{
-height: 950px;
 margin: 130px 130px 0px 130px;
 }
 .feature_head{
@@ -73,19 +72,23 @@ margin: 130px 130px 0px 130px;
     display: flex;
     justify-content: space-around;
     margin-top: 75px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .feature_photo >img{
     
     /* width: 19%; */
+    gap: 10px;
     padding: 150px 40px 0px 40px;
     border-radius: 220px 220px 0px 0px;
+    margin: 20px;
+    justify-content: space-around;
 }
 .fstimg{
     background-color: #858585;
 }
 .sndimg{
     background-color: aquamarine;
+    
 }
 .trdimg{
     background-color: rgba(0, 0, 255, 0.244);
