@@ -137,6 +137,33 @@ margin: 130px 130px 0px 130px;
 
 /* Deal part end     */
 
+/* send messahe part start */
+.mgs_container{
+    display: flex;
+    margin: 0px 0px;
+    height: 100vh;
+}
+.mgs_coloum{
+    width: 50%;
+    text-align: center;
+}
+/* .mgs_coloum >input, textarea{
+    display: block;
+    text-align: center;
+} */
+.mgs_coloum >input{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px 0px;
+    margin: 10px;
+}
+.mgs_coloum >button:hover{
+    background-color: #858585;
+}
+textarea{
+    border: 1px solid black;
+}
+
 /* insta part start */
 .insta_cintainer{
     height: 530px;
